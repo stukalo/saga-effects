@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class App extends Component {
   render() {
     return (
-        <h1>Saga-effects</h1>
+        <div>
+            <h1 style={{ textAlign: 'center' }}>Saga-effects</h1>
+        </div>
     );
   }
 }
