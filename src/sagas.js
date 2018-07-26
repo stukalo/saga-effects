@@ -1,9 +1,8 @@
 import { all, fork } from 'redux-saga/effects';
-
-import { allSaga } from './examples/allSaga';
+import { requestSaga } from "./examples/requestSaga";
 
 const sagas = [
-    allSaga
+    requestSaga
 ];
 
 export default function* watchRootSaga() {
